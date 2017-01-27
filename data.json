@@ -1,0 +1,2211 @@
+{
+  "testGroups": [
+    {
+      "name": "[-testgroup-]admin",
+      "globalPermissions": {
+        "canUse": false,
+        "attachFilesToUserProfile": false,
+        "personalSpace": false,
+        "createSpace": false,
+        "confluenceAdministrator": false,
+        "systemAdministrator": false
+      }
+    },
+    {
+      "name": "[-testgroup-]adminanduser",
+      "globalPermissions": {
+        "canUse": false,
+        "attachFilesToUserProfile": false,
+        "personalSpace": false,
+        "createSpace": false,
+        "confluenceAdministrator": false,
+        "systemAdministrator": false
+      }
+    },
+    {
+      "name": "[-testgroup-]emptygroup",
+      "globalPermissions": {
+        "canUse": false,
+        "attachFilesToUserProfile": false,
+        "personalSpace": false,
+        "createSpace": false,
+        "confluenceAdministrator": false,
+        "systemAdministrator": false
+      }
+    },
+    {
+      "name": "[-testgroup-]group2",
+      "globalPermissions": {
+        "canUse": false,
+        "attachFilesToUserProfile": false,
+        "personalSpace": false,
+        "createSpace": false,
+        "confluenceAdministrator": false,
+        "systemAdministrator": false
+      }
+    },
+    {
+      "name": "[-testgroup-]user",
+      "globalPermissions": {
+        "canUse": false,
+        "attachFilesToUserProfile": false,
+        "personalSpace": false,
+        "createSpace": false,
+        "confluenceAdministrator": false,
+        "systemAdministrator": false
+      }
+    }
+  ],
+  "testUsers": [
+    {
+      "name": "[-testuser-]1",
+      "fullName": "[-testuser-]1",
+      "email": "[-testuser-]1@[-testuser-]1.[-testuser-]1",
+      "globalPermissions": {
+        "canUse": false,
+        "attachFilesToUserProfile": false,
+        "personalSpace": false,
+        "createSpace": false,
+        "confluenceAdministrator": false,
+        "systemAdministrator": false
+      },
+      "listedInGroups": [
+        "[-testgroup-]adminanduser",
+        "[-testgroup-]user"
+      ]
+    }
+  ],
+  "testSpaces": [
+    {
+      "spaceName": "[-TestSpace-]ButtonReferenceExternal",
+      "spaceKey": "SeleniumButtonReferenceExternal",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]ButtonReferenceExternal Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"9364f0e4-418e-4c9f-b219-2eaef5fd9641\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e17\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e18\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e19\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e20\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"33ad282f-4d41-4c19-9efb-1d83a5078641\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"5020051e-24ea-40c2-86cd-364cd032eaad\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [
+            "externalPage__titleTag1__"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        },
+        {
+          "pageTitle": "externalPage__titleTag1__",
+          "storageFormat": "",
+          "children": [
+            "@self, targetExternalREPLACED_TITLE_TAG_1"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetExternalREPLACED_TITLE_TAG_1",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"c77ce011-2e7f-4991-a653-5bef5e0deaca\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, targetExternal\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]ButtonReferenceSource",
+      "spaceKey": "SeleniumButtonReferenceSource",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]ButtonReferenceSource Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"1790ad3c-53f9-428f-8883-e993706b4a65\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e9\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e10\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e11\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e12\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"b0363940-e823-41c8-bcaf-37b261accd1c\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"989ad336-74aa-4f82-b95a-d3d9aa227a9b\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [
+            "noCopyPage__titleTag1__",
+            "@self, targetEmpty__titleTag1__",
+            "@self(ausgeschrieben), targetEmpty__titleTag1__",
+            "@self, targetSubPage__titleTag1__",
+            "@self, targetNoCopyPage__titleTag1__",
+            "@self, targetExternal__titleTag1__",
+            "subPage, targetEmpty__titleTag1__",
+            "subPage, targetSubPage__titleTag1__",
+            "subPage, targetNoCopyPage__titleTag1__",
+            "subPage, targetExternal__titleTag1__",
+            "noCopyPage, targetEmpty__titleTag1__",
+            "noCopyPage, targetSubPage__titleTag1__",
+            "noCopyPage, targetNoCopyPage__titleTag1__",
+            "noCopyPage, targetExternal__titleTag1__",
+            "external, targetEmpty__titleTag1__",
+            "external, targetSubPage__titleTag1__",
+            "external, targetNoCopyPage__titleTag1__",
+            "external, targetExternal__titleTag1__"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        },
+        {
+          "pageTitle": "noCopyPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"c9118a59-aa26-4600-8439-27c5ca592012\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "@self, targetNoCopyPageREPLACED_TITLE_TAG_1"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetEmpty__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"7d95011b-8588-400b-88de-7ff78014d929\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "@self, targetEmptyREPLACED_TITLE_TAG_1"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self(ausgeschrieben), targetEmpty__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"221d2273-f7bd-40b3-b41a-46e7af5fb7d0\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self(ausgeschrieben), targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "@self(ausgeschrieben), targetEmptyREPLACED_TITLE_TAG_1"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetSubPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"23d2460a-8f91-42bb-b38f-0573f6ec6ed5\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, targetSubPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (@self,targetSubPage__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (@self,targetSubPage__titleTag1__)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (@self,targetSubPage__titleTag1__)",
+          "storageFormat": "",
+          "children": [
+            "@self, targetSubPageREPLACED_TITLE_TAG_1"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetNoCopyPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"87e5f471-4314-42d4-bff3-a0f72bf5d2a8\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, noCopyPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetExternal__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"680f3872-280e-43ae-b430-d2ea35dce8dd\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, targetExternal\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage, targetEmpty__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"c619a4f9-6150-41cc-b4bd-86e08294cad8\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (subPage, targetEmpty__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003esubpage, targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (subPage, targetEmpty__titleTag1__)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (subPage, targetEmpty__titleTag1__)",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage, targetSubPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"3a6f2872-c5a2-4e2e-b3ba-2addcb7715a5\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (subPage, targetSubPage__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003esubPage, targetSubPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (subPage, targetSubPage__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (subPage, targetSubPage__titleTag1__)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (subPage, targetSubPage__titleTag1__)",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage, targetNoCopyPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"f4a1a584-4545-4283-a8c9-21d9c5b984a0\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (subPage, targetNoCopyPage__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003esubPage, targetNoCopyPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (subPage, targetNoCopyPage__titleTag1__)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (subPage, targetNoCopyPage__titleTag1__)",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage, targetExternal__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"8faa3797-fecc-4e4b-8a29-89fe99218d41\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (subPage, targetExternal__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003esubPage, targetExternal\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (subPage, targetExternal__titleTag1__)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (subPage, targetExternal__titleTag1__)",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "noCopyPage, targetEmpty__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"d10f5a4e-79cb-4c2f-b4a1-0429754891fb\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003enoCopyPage, targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "noCopyPageREPLACED_TITLE_TAG_1"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "noCopyPage, targetSubPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"c947c163-2671-427f-ad6f-25fbfd33c812\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003enoCopyPage, targetSubPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (noCopyPage, targetSubPage__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (noCopyPage, targetSubPage__titleTag1__)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (noCopyPage, targetSubPage__titleTag1__)",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "noCopyPage, targetNoCopyPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"e1fa181e-8554-42c8-a662-f70293df1d9c\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003enoCopyPage, targetNoCopyPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "noCopyPage, targetExternal__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"babef193-a690-427a-9d6e-fc5edc57682b\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003enoCopyPage, targetExternal\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "external, targetEmpty__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"d4ce4d68-0fa9-4a8c-88f0-54ef7ba111ed\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eexternal, targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "external, targetSubPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"fe3c8654-f4c1-4ae9-99aa-064a9a9732c4\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eexternal, targetSubPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (external, targetSubPage__titleTag1__)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (external, targetSubPage__titleTag1__)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (external, targetSubPage__titleTag1__)",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "external, targetNoCopyPage__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"69a706a1-0b36-4f50-be1f-f558ccb7c625\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eexternal, targetNoCopyPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "external, targetExternal__titleTag1__",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"33bbea26-bf19-4a88-a50b-fca454a8e087\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eexternal, targetExternal\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"externalPage__titleTag1__\" ri:space-key\u003d\"SeleniumButtonReferenceExternal\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "noCopyPageREPLACED_TITLE_TAG_1",
+          "storageFormat": "",
+          "children": [],
+          "labels": [
+            "null"
+          ],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetEmptyREPLACED_TITLE_TAG_1",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"5017fec5-9fcc-49f7-b1b0-c82363512d37\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 0,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetNoCopyPageREPLACED_TITLE_TAG_1",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"e04f6689-4aae-43f7-aa4c-81759ea9b6e3\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, noCopyPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noCopyPage__titleTag1__\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self(ausgeschrieben), targetEmptyREPLACED_TITLE_TAG_1",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"2d0e6bb7-36cf-4544-9ae8-8a3d8c0d9051\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self(ausgeschrieben), targetEmpty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 0,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "@self, targetSubPageREPLACED_TITLE_TAG_1",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"17a2e49c-49a9-4340-aab1-db56b76e3d02\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003e@self, targetSubPage\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"subPage of (@self,targetSubPageREPLACED_TITLE_TAG_1)\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [
+            "subPage of (@self,targetSubPageREPLACED_TITLE_TAG_1)"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 0,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "subPage of (@self,targetSubPageREPLACED_TITLE_TAG_1)",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 0,
+          "isHomePage": false
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]buttonShowConditionsTest",
+      "spaceKey": "PtcMacros",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]buttonShowConditionsTest Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"8f9ca7c8-4188-4f53-8791-d21ace64638a\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3149\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3150\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3151\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3152\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"cf733136-1813-4815-a827-96ec98cff7f5\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"7ef2815a-e7cb-4e10-9bc4-0201589eb4d7\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [
+            "Button Test user\u0026admin in Group",
+            "Button Test user in Group",
+            "Button Test admin in Group",
+            "Button Test user is not in group",
+            "Button Test permitted groups empty",
+            "Button Test user is in one of the groups",
+            "Button Test user is not in groups",
+            "Button Test user in multiple Groups",
+            "noViewPermissionPage",
+            "sourcepagetest",
+            "Button Test target space add permission",
+            "Custom Plugin Permission",
+            "custompermissionallowed",
+            "custom plugin permission not allowed"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        },
+        {
+          "pageTitle": "Button Test user is not in group",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"e111e9a9-68df-42b2-b5f7-91956cbe249a\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eEmptyGroup\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"permitted-groups\"\u003e[-testgroup-]emptygroup\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test admin in Group",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"199f4f57-b564-4f51-b7aa-a60c7d560eb4\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-display-type\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eAdminInGroup\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"permitted-groups\"\u003e[-testgroup-]admin\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test user in Group",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"7729a26e-6a99-4775-a2e3-fb321fd0d98e\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eUserInGroup\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"permitted-groups\"\u003e[-testgroup-]user\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test user\u0026admin in Group",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"267c7555-3241-4b79-90c2-48271df15f87\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003eUser\u0026amp;AdminInGroup\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"permitted-groups\"\u003e[-testgroup-]adminanduser\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test permitted groups empty",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"1e3ad2e2-7ec9-4f1c-9f01-54b9da672a2a\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003epermitted groups empty\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test user is in one of the groups",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"c7367dd9-b34b-4903-891e-235bb21b2130\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003euserisinoneofthegroups\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"permitted-groups\"\u003e[-testgroup-]user,[-testgroup-]admin,[-testgroup-]emptygroup\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test user is not in groups",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"b620dddf-d5ae-4661-ba81-697baaa0b4e7\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003euserisnotingroups\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"permitted-groups\"\u003e[-testgroup-]admin,[-testgroup-]group2,[-testgroup-]emptygroup\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test user in multiple Groups",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"113f1541-ff8f-4d05-9aeb-767c3f70c25d\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003euser is in multiple groups\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"permitted-groups\"\u003e[-testgroup-]user,confluence-users\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "noViewPermissionPage",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [
+              "admin"
+            ],
+            "usersCanEdit": [
+              "admin"
+            ],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "sourcepagetest",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"e59bc4e9-d4e9-4edb-b90d-236864ff104b\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"noViewPermissionPage\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003enoviewpermission\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Button Test target space add permission",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"785cf1c1-fc85-4627-a371-75eb12ce1241\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"@self\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003etargetSpaceAddPermission\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"target-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"[-TestSpace-]TargetPageShowCondition Home\" ri:space-key\u003d\"seleniumTargetSpaceAddPermission\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Custom Plugin Permission",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "custompermissionallowed",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"c500766b-f664-4452-aeae-4a28f8490b40\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"[-TestSpace-]customPermittedSpace Home\" ri:space-key\u003d\"seleniumCustomPermittedSpace\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003ecustompermissionallowed\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "custom plugin permission not allowed",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"43587186-9000-41be-a527-36f84b3e8fe0\" ac:name\u003d\"pagetreecreator-button\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"source-page\"\u003e\u003cac:link\u003e\u003cri:page ri:content-title\u003d\"[-TestSpace-]TargetPageShowCondition Home\" ri:space-key\u003d\"seleniumTargetSpaceAddPermission\" /\u003e\u003c/ac:link\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"button-caption\"\u003ecustompluginnotallowed\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]CopyPageTreeMenuExternal",
+      "spaceKey": "SeleniumCopyPageTreeMenuExternal",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]CopyPageTreeMenuExternal Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"117a1e1b-4af2-42c3-b40d-605f090a3b56\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3053\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3054\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3055\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3056\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"0ba4d502-2196-4f80-af21-cba64837d74d\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"2b09fe88-3529-49d5-b1ea-4e43d5607a9f\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [
+            "testPage2"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        },
+        {
+          "pageTitle": "testPage2",
+          "storageFormat": "",
+          "children": [
+            "Copy of externalTargetPageTest"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of externalTargetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of externalTargetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]CopyPageTreeMenuSource",
+      "spaceKey": "SeleniumCopyPageTreeMenu",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]CopyPageTreeMenuSource Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"314b2041-4368-435f-8b5e-eb1fc4634a9e\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3049\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3050\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3051\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3052\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"7f035ab2-aea0-4938-a517-ec22d607919e\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"07586648-5edf-48bb-8a0c-62681af86a12\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [
+            "targetSpaceTest",
+            "targetPageTest",
+            "externalTargetSpaceTest",
+            "externalTargetPageTest",
+            "pageTitlePrefixWithSpecialCharactersTest",
+            "pageTitlePrefixTest",
+            "errorHandlingTargetPageTest",
+            "targetPageEmptyTest",
+            "targetSpaceEmptyTest",
+            "tagInTitleIsNotReplacedTest __tag__",
+            ")(\u003d\u003d$$[/%(\u0026ç345t322ä:\u0026%pageTitlePrefixWithSpecialCharactersTest",
+            "newPrefixpageTitlePrefixTest"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        },
+        {
+          "pageTitle": "targetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "targetPageTest",
+          "storageFormat": "",
+          "children": [
+            "Copy of targetPageTest"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "externalTargetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "externalTargetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "pageTitlePrefixWithSpecialCharactersTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "pageTitlePrefixTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 5,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "errorHandlingTargetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 7,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "targetPageEmptyTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 8,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "targetSpaceEmptyTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 9,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "tagInTitleIsNotReplacedTest __tag__",
+          "storageFormat": "\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 10,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of targetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 0,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of targetPageEmptyTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": ")(\u003d\u003d$$[/%(\u0026ç345t322ä:\u0026%pageTitlePrefixWithSpecialCharactersTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 10,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "newPrefixpageTitlePrefixTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 10,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of targetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]CreatePageTreeMenuExternal",
+      "spaceKey": "SeleniumCreatePageTreeMenuExternal",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]CreatePageTreeMenuExternal Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"26aa659d-9f7b-4e34-a514-bae3c3df8795\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3009\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3010\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3011\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3012\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"f7ebf3a4-db12-4ca8-b859-f3331a8f0d3a\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"8bb9149b-5509-49ab-ac7f-477d82a71153\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [
+            "testPage2"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        },
+        {
+          "pageTitle": "testPage2",
+          "storageFormat": "",
+          "children": [
+            "Copy of externalTargetPageTest"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of externalTargetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of externalTargetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]CreatePageTreeMenuSource",
+      "spaceKey": "SeleniumCreatePageTreeMenu",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]CreatePageTreeMenuSource Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"c403abe6-edd8-4b46-8109-f94d36ec707e\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3005\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3006\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3007\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3008\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"34b98dd5-3300-4a6d-b66b-4fe14e05da76\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"c9a02ac2-d922-48b4-9633-cbba68110e13\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [
+            "targetSpaceTest",
+            "externalTargetSpaceTest",
+            "targetPageTest",
+            "externalTargetPageTest",
+            "pageTitlePrefixTest",
+            "pageTitlePrefixWithSpecialCharactersTest",
+            "copyAttachmentsChecked",
+            "copyAttachmentsUnchecked",
+            "errorHandlingTargetPageTest",
+            "targetPageEmptyTest",
+            "targetSpaceEmptyTest",
+            "Copy of copyAttachmentsUnchecked",
+            ")(\u003d\u003d$$[/%(\u0026ç345t322ä:\u0026%pageTitlePrefixWithSpecialCharactersTest",
+            "newPrefixpageTitlePrefixTest",
+            "Copy of copyAttachmentsChecked"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        },
+        {
+          "pageTitle": "targetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 1,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "externalTargetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 0,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "targetPageTest",
+          "storageFormat": "",
+          "children": [
+            "Copy of targetPageTest"
+          ],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 2,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "externalTargetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 3,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "pageTitlePrefixTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 4,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "pageTitlePrefixWithSpecialCharactersTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 5,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "copyAttachmentsChecked",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"f5eaa26e-d398-494e-bb5b-20a7fb1929ed\" ac:name\u003d\"view-file\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"name\"\u003e\u003cri:attachment ri:filename\u003d\"bobswift-confluence-rest-5.7.0 (1).jar\" /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"height\"\u003e250\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003cac:image ac:height\u003d\"250\"\u003e\u003cri:attachment ri:filename\u003d\"Capture.PNG\" /\u003e\u003c/ac:image\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [
+            {
+              "name": "bobswift-confluence-rest-5.7.0 (1).jar",
+              "id": 16744702,
+              "filepath": "SeleniumCreatePageTreeMenu\\copyAttachmentsChecked",
+              "fileName": "bobswift-confluence-rest-5.7.0 (1).jar",
+              "comment": "",
+              "creator": "admin",
+              "attachmentLabels": [],
+              "mediaType": "application/java-archive",
+              "fileSize": 317758,
+              "version": 1
+            },
+            {
+              "name": "Capture.PNG",
+              "id": 16744704,
+              "filepath": "SeleniumCreatePageTreeMenu\\copyAttachmentsChecked",
+              "fileName": "Capture.PNG",
+              "comment": "",
+              "creator": "admin",
+              "attachmentLabels": [],
+              "mediaType": "image/png",
+              "fileSize": 87759,
+              "version": 1
+            }
+          ],
+          "pagePosition": 7,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "copyAttachmentsUnchecked",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"a784cfdd-e1d6-48a5-b763-d796ca7f240f\" ac:name\u003d\"view-file\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"name\"\u003e\u003cri:attachment ri:filename\u003d\"bobswift-confluence-rest-5.7.0 (1).jar\" /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"height\"\u003e250\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003cac:image ac:height\u003d\"250\"\u003e\u003cri:attachment ri:filename\u003d\"Capture.PNG\" /\u003e\u003c/ac:image\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [
+            {
+              "name": "bobswift-confluence-rest-5.7.0 (1).jar",
+              "id": 17989725,
+              "filepath": "SeleniumCreatePageTreeMenu\\copyAttachmentsUnchecked",
+              "fileName": "bobswift-confluence-rest-5.7.0 (1).jar",
+              "comment": "",
+              "creator": "admin",
+              "attachmentLabels": [],
+              "mediaType": "application/java-archive",
+              "fileSize": 317758,
+              "version": 1
+            },
+            {
+              "name": "Capture.PNG",
+              "id": 17989726,
+              "filepath": "SeleniumCreatePageTreeMenu\\copyAttachmentsUnchecked",
+              "fileName": "Capture.PNG",
+              "comment": "",
+              "creator": "admin",
+              "attachmentLabels": [],
+              "mediaType": "image/png",
+              "fileSize": 87759,
+              "version": 1
+            }
+          ],
+          "pagePosition": 9,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "errorHandlingTargetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 11,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "targetPageEmptyTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 12,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "targetSpaceEmptyTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 13,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of copyAttachmentsUnchecked",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"7a4c554d-380f-4a14-91a1-50ccdff0552c\" ac:name\u003d\"view-file\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"name\"\u003e\u003cri:attachment ri:filename\u003d\"bobswift-confluence-rest-5.7.0 (1).jar\"\u003e\u003cri:page ri:content-title\u003d\"copyAttachmentsUnchecked\" /\u003e\u003c/ri:attachment\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"height\"\u003e250\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003cac:image ac:height\u003d\"250\"\u003e\u003cri:attachment ri:filename\u003d\"Capture.PNG\"\u003e\u003cri:page ri:content-title\u003d\"copyAttachmentsUnchecked\" /\u003e\u003c/ri:attachment\u003e\u003c/ac:image\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 13,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of targetPageTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 0,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of targetPageEmptyTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": ")(\u003d\u003d$$[/%(\u0026ç345t322ä:\u0026%pageTitlePrefixWithSpecialCharactersTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 13,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "newPrefixpageTitlePrefixTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": 13,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of copyAttachmentsChecked",
+          "storageFormat": "\u003cp\u003e\u003cac:structured-macro ac:macro-id\u003d\"d7136823-31f3-48b0-b873-b558fce8d639\" ac:name\u003d\"view-file\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"name\"\u003e\u003cri:attachment ri:filename\u003d\"bobswift-confluence-rest-5.7.0 (1).jar\" /\u003e\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"height\"\u003e250\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\u003cac:image ac:height\u003d\"250\"\u003e\u003cri:attachment ri:filename\u003d\"Capture.PNG\" /\u003e\u003c/ac:image\u003e\u003c/p\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [
+            {
+              "name": "Capture.PNG",
+              "id": 21692490,
+              "filepath": "SeleniumCreatePageTreeMenu\\Copy of copyAttachmentsChecked",
+              "fileName": "Capture.PNG",
+              "comment": "",
+              "creator": "admin",
+              "attachmentLabels": [],
+              "mediaType": "image/png",
+              "fileSize": 87759,
+              "version": 1
+            },
+            {
+              "name": "bobswift-confluence-rest-5.7.0 (1).jar",
+              "id": 21692491,
+              "filepath": "SeleniumCreatePageTreeMenu\\Copy of copyAttachmentsChecked",
+              "fileName": "bobswift-confluence-rest-5.7.0 (1).jar",
+              "comment": "",
+              "creator": "admin",
+              "attachmentLabels": [],
+              "mediaType": "application/java-archive",
+              "fileSize": 317758,
+              "version": 1
+            }
+          ],
+          "pagePosition": 13,
+          "isHomePage": false
+        },
+        {
+          "pageTitle": "Copy of targetSpaceTest",
+          "storageFormat": "",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "pagePosition": -1,
+          "isHomePage": false
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]customPermittedSpace",
+      "spaceKey": "seleniumCustomPermittedSpace",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]customPermittedSpace Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"5e0ce0cc-baf8-4d98-b1ce-c45de450bbc6\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3109\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3110\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3111\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3112\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"2621289c-70b0-4154-a925-b14fa5c3421a\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"e633c492-5d9b-478c-9dd8-016a5f40d8ae\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        }
+      ]
+    },
+    {
+      "spaceName": "[-TestSpace-]TargetPageShowCondition",
+      "spaceKey": "seleniumTargetSpaceAddPermission",
+      "createdBy": "admin",
+      "spacePermissions": {
+        "groups": [
+          {
+            "name": "confluence-users",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": false,
+              "pages_delete": false,
+              "blog_add": true,
+              "blog_delete": false,
+              "comments_add": true,
+              "comments_delete": false,
+              "attachments_add": true,
+              "attachments_delete": false,
+              "restrictions_addDelete": false,
+              "mail_delete": false,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "users": [
+          {
+            "name": "admin",
+            "spaceRestrictions": {
+              "all_view": true,
+              "pages_add": true,
+              "pages_delete": true,
+              "blog_add": true,
+              "blog_delete": true,
+              "comments_add": true,
+              "comments_delete": true,
+              "attachments_add": true,
+              "attachments_delete": true,
+              "restrictions_addDelete": true,
+              "mail_delete": true,
+              "space_export": true,
+              "space_admin": true
+            }
+          }
+        ],
+        "anonymousAccess": {
+          "all_view": false,
+          "pages_add": false,
+          "pages_delete": false,
+          "blog_add": false,
+          "blog_delete": false,
+          "comments_add": false,
+          "comments_delete": false,
+          "attachments_add": false,
+          "attachments_delete": false,
+          "restrictions_addDelete": false,
+          "mail_delete": false,
+          "space_export": false,
+          "space_admin": false
+        }
+      },
+      "testPages": [
+        {
+          "pageTitle": "[-TestSpace-]TargetPageShowCondition Home",
+          "storageFormat": "\n\u003cac:layout\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cac:structured-macro ac:macro-id\u003d\"2f60e996-4ccb-4740-9dca-dcbbf08f248f\" ac:name\u003d\"tip\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"title\"\u003eWelcome to your new space!\u003c/ac:parameter\u003e\u003cac:rich-text-body\u003e\n                    \u003cp\u003eConfluence spaces are great for sharing content and news with your team. This is your home page. Right now it shows recent space activity, but you can customize this page in anyway you like.\u003c/p\u003e\n                \u003c/ac:rich-text-body\u003e\u003c/ac:structured-macro\u003e\u003ch2\u003eComplete these tasks to get started\u003c/h2\u003e\u003cac:task-list\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3105\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eEdit this home page\u003c/strong\u003e - Click \u003cem\u003eEdit\u003c/em\u003e in the top right of this screen to customize your Space home page\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3106\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eCreate your first page\u003c/strong\u003e - Click the \u003cem\u003eCreate\u003c/em\u003e button in the header to get started\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3107\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eBrand your Space\u003c/strong\u003e - Click \u003cem\u003eConfigure Sidebar\u003c/em\u003e in the left panel to update space details and logo\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003cac:task\u003e\n\u003cac:task-id\u003e3108\u003c/ac:task-id\u003e\n\u003cac:task-status\u003eincomplete\u003c/ac:task-status\u003e\n\u003cac:task-body\u003e\n                        \u003cstrong\u003eSet permissions\u003c/strong\u003e - Click \u003cem\u003eSpace Tools\u003c/em\u003e in the left sidebar to update permissions and give others access\n                    \u003c/ac:task-body\u003e\n\u003c/ac:task\u003e\n\u003c/ac:task-list\u003e\n\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"two_equal\"\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eRecent space activity\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"78a8fe52-55b6-4d02-94fd-a20c7a5d18bd\" ac:name\u003d\"recently-updated\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"types\"\u003epage, comment, blogpost\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"max\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"hideHeading\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"theme\"\u003esocial\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003cac:layout-cell\u003e\n\u003ch2\u003eSpace contributors\u003c/h2\u003e\u003cp\u003e\n                    \u003cac:structured-macro ac:macro-id\u003d\"d3a9a104-37bf-4a80-9408-65c89410282e\" ac:name\u003d\"contributors\" ac:schema-version\u003d\"1\"\u003e\u003cac:parameter ac:name\u003d\"mode\"\u003elist\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"scope\"\u003edescendants\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"limit\"\u003e5\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"showLastTime\"\u003etrue\u003c/ac:parameter\u003e\u003cac:parameter ac:name\u003d\"order\"\u003eupdate\u003c/ac:parameter\u003e\u003c/ac:structured-macro\u003e\n                \u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003cac:layout-section ac:type\u003d\"single\"\u003e\u003cac:layout-cell\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\u003c/ac:layout-cell\u003e\u003c/ac:layout-section\u003e\u003c/ac:layout\u003e",
+          "children": [],
+          "labels": [],
+          "pagePermissions": {
+            "usersCanView": [],
+            "usersCanEdit": [],
+            "groupsCanView": [],
+            "groupsCanEdit": []
+          },
+          "attachments": [],
+          "isHomePage": true
+        }
+      ]
+    }
+  ]
+}
